@@ -1,0 +1,3 @@
+﻿https://api.nuget.org/v3-flatcontainer/system.reflection.metadata/8.0.0/system.reflection.metadata.8.0.0.nupkg
+Package: \LICENSE.TXT
+Package: \THIRD-PARTY-NOTICES.TXT

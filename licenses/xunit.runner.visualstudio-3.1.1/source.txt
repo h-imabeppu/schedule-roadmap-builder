@@ -1,0 +1,2 @@
+﻿https://api.nuget.org/v3-flatcontainer/xunit.runner.visualstudio/3.1.1/xunit.runner.visualstudio.3.1.1.nupkg
+https://raw.githubusercontent.com/xunit/visualstudio.xunit/bf6400fd514572a9065cc0ce501bd1484e0c5c88/License.txt

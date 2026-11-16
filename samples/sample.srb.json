@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "name": "サンプル全体日程",
+  "items": [
+    { "id": "10000000-0000-0000-0000-000000000001", "kind": "Major", "name": "設計", "status": "済", "assignee": "A", "showInPpt": true },
+    { "id": "20000000-0000-0000-0000-000000000001", "kind": "Task", "name": "要件整理", "effort": 5, "manualStart": "2026-11-02", "status": "済", "assignee": "A" },
+    { "id": "20000000-0000-0000-0000-000000000002", "kind": "Task", "name": "基本設計", "effort": 7, "predecessors": ["20000000-0000-0000-0000-000000000001"], "status": "済", "assignee": "B", "isVisible": false },
+    { "id": "20000000-0000-0000-0000-000000000003", "kind": "Task", "name": "詳細設計", "effort": 7, "predecessors": ["20000000-0000-0000-0000-000000000002"], "status": "済", "assignee": "A" },
+    { "id": "30000000-0000-0000-0000-000000000001", "kind": "Milestone", "name": "設計レビュー", "effort": null, "predecessors": ["20000000-0000-0000-0000-000000000003"], "assignee": "全員", "showInPpt": true },
+    { "id": "10000000-0000-0000-0000-000000000002", "kind": "Major", "name": "実装", "status": "着手", "assignee": "B", "showInPpt": true },
+    { "id": "20000000-0000-0000-0000-000000000004", "kind": "Task", "name": "画面実装", "effort": 15, "predecessors": ["30000000-0000-0000-0000-000000000001"], "status": "着手", "assignee": "A" },
+    { "id": "20000000-0000-0000-0000-000000000005", "kind": "Task", "name": "計算処理", "effort": 12, "predecessors": ["30000000-0000-0000-0000-000000000001"], "status": "未着手", "assignee": "B", "isVisible": false },
+    { "id": "20000000-0000-0000-0000-000000000006", "kind": "Task", "name": "結合確認", "effort": 8, "predecessors": ["20000000-0000-0000-0000-000000000004", "20000000-0000-0000-0000-000000000005"], "status": "未着手", "assignee": "C", "notes": "前工程が複数ある例" },
+    { "id": "10000000-0000-0000-0000-000000000003", "kind": "Major", "name": "評価", "status": "未着手", "assignee": "C", "showInPpt": true },
+    { "id": "20000000-0000-0000-0000-000000000007", "kind": "Task", "name": "機能評価", "effort": 10, "manualStart": "2027-01-18", "predecessors": ["20000000-0000-0000-0000-000000000006"], "status": "未着手", "assignee": "B" },
+    { "id": "20000000-0000-0000-0000-000000000008", "kind": "Task", "name": "総合評価", "effort": 12, "predecessors": ["20000000-0000-0000-0000-000000000007"], "status": "未着手", "assignee": "C" },
+    { "id": "30000000-0000-0000-0000-000000000002", "kind": "Milestone", "name": "完了確認", "effort": null, "predecessors": ["20000000-0000-0000-0000-000000000008"], "assignee": "全員", "showInPpt": true }
+  ],
+  "settings": {
+    "statuses": [
+      { "name": "未着手", "isComplete": false },
+      { "name": "着手", "isComplete": false },
+      { "name": "済", "isComplete": true }
+    ],
+    "assignees": [
+      { "name": "プロジェクト", "color": "#4472C4" },
+      { "name": "全員", "color": "#70AD47" },
+      { "name": "A", "color": "#ED7D31" },
+      { "name": "B", "color": "#8064A2" },
+      { "name": "C", "color": "#00A6A6" }
+    ],
+    "calendar": [
+      { "date": "2026-11-03", "name": "文化の日", "kind": "Holiday" },
+      { "date": "2026-11-23", "name": "勤労感謝の日", "kind": "Holiday" },
+      { "date": "2026-12-29", "name": "年末休日", "kind": "DayOff" },
+      { "date": "2026-12-30", "name": "年末休日", "kind": "DayOff" },
+      { "date": "2026-12-31", "name": "年末休日", "kind": "DayOff" },
+      { "date": "2027-01-01", "name": "元日", "kind": "Holiday" },
+      { "date": "2027-01-11", "name": "成人の日", "kind": "Holiday" },
+      { "date": "2027-02-11", "name": "建国記念の日", "kind": "Holiday" }
+    ]
+  },
+  "view": { "start": "2026-11-01", "end": "2027-02-28", "mode": "Mondays", "displayMode": "All" },
+  "ppt": { "start": "2026-11-01", "end": "2027-02-28", "mode": "Mondays", "showToday": true }
+}

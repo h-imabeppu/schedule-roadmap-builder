@@ -1,0 +1,2 @@
+﻿https://api.nuget.org/v3-flatcontainer/documentformat.openxml/3.3.0/documentformat.openxml.3.3.0.nupkg
+https://raw.githubusercontent.com/dotnet/Open-XML-SDK/fcdd9e4fa5a3c1136ed87196683c60f340ac5f62/LICENSE

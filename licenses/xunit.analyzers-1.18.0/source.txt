@@ -1,0 +1,2 @@
+﻿https://api.nuget.org/v3-flatcontainer/xunit.analyzers/1.18.0/xunit.analyzers.1.18.0.nupkg
+https://raw.githubusercontent.com/xunit/xunit.analyzers/2620a4ddabcba16ceb64ea9ad19c566252015fe8/LICENSE

@@ -1,0 +1,17 @@
+# ビルド成果物
+bin/
+obj/
+publish/
+TestResults/
+# Visual Studio / VS Code
+.vs/
+*.user
+*.suo
+# このプロジェクト専用のNuGet保存先
+.nuget-packages/
+# 一時ファイル・バックアップ
+_tmp_*
+*.bak
+*.log
+# テストで再生成するサンプル出力
+samples/output/

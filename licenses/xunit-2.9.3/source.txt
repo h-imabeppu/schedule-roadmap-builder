@@ -1,0 +1,2 @@
+﻿https://api.nuget.org/v3-flatcontainer/xunit/2.9.3/xunit.2.9.3.nupkg
+https://raw.githubusercontent.com/xunit/xunit/9712244020d385955d33136b3fe3e87de43539cd/license.txt

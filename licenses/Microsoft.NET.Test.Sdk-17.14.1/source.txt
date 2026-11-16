@@ -1,0 +1,2 @@
+﻿https://api.nuget.org/v3-flatcontainer/microsoft.net.test.sdk/17.14.1/microsoft.net.test.sdk.17.14.1.nupkg
+https://raw.githubusercontent.com/microsoft/vstest/490850ae3fdc1b470e3804ceab4f6a41cf89ae51/LICENSE

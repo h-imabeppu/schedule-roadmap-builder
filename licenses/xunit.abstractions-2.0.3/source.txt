@@ -1,0 +1,2 @@
+﻿https://api.nuget.org/v3-flatcontainer/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg
+https://raw.githubusercontent.com/xunit/xunit/master/license.txt
